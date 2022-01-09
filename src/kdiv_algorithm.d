@@ -11,12 +11,16 @@ float basic_division(float one, float two) {
 
     // we need to put p into "one" until it's equal
     while (p < one) {
+        // we add "p" by the number
         p += two;
+        // add a time
         t += 1;
 
+        // if we've reached it
         if (p == one) {
             break;
         } else if (p > one) {
+            // Hey no remainders!
             writeln("This function does not support remainders.");
             return -1.00000;
         }
