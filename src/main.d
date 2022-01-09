@@ -20,5 +20,7 @@ import std.stdio;
 
 void main() {
     float e = basic_division(12, 3);
+    float b = 12 / 3;
     writeln(e);
+    writeln(b);
 }
